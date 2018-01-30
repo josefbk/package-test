@@ -1,0 +1,14 @@
+{
+  "name": "josefbk/package-test",
+  "type": "library",
+  "description": "test of something",
+  "require": {
+    "php": "^7.0",
+    "psr/log": "1.0.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "MyTest\\libs\\": "src/"
+    }
+  }
+}
